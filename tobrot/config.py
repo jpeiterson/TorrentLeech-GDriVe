@@ -37,7 +37,7 @@ class Config(object):
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
     LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech")
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
-    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
+    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "type = drive client_id = 227567692423-bgr97ihcqba5faos5p4u4td52ha73qdd.apps.googleusercontent.com client_secret = YasfyuiqH1_GYJTuzZfy0z7o scope = drive root_folder_id = token = {"access_token":"ya29.A0AfH6SMAS3lB0a8Fsc1sVXKIfN9-K05yfTngFVRq1UrHKK0_dTFHCfecOY5taJypbLhGjTgMDr6ylrTl3HjrgJ0jp54qaHyriIKc88tGJTf4fYQ-JL1wokqLN_nnoi9UBm9hF3KiZge8oRPumWi8M0NKgoXU2","token_type":"Bearer","refresh_token":"1//0gjmgCSFsbZk9CgYIARAAGBASNwF-L9IrjvRmeg2rSZmmNLINJ37vI1pwRuDed1wwIZiSrCShtaAhOVfvzQ2bX__mBIuSnT0JQXY","expiry":"2021-02-07T08:42:48.3820692-08:00"} team_drive = 0AAW19p-wEPUeUk9PVA")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "TorrentLeech-Gdrive")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech")
     INDEX_LINK = os.environ.get("INDEX_LINK", "")
